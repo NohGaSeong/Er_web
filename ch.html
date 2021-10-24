@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "stylesheet" href = "Css/style.css">
+    <link rel = "stylesheet" href = "Css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class = "nav-container">
+            <ul class = "nav-menu">
+                <li class = "nav-item"><a  href = "index.html"><img src= "image/logo-er.png"/></a></li>
+                <li class = "nav-item"><a  href = "introduce.html">게임소개</a></li>
+                <li class = "nav-item"><a href = "ch.html">캐릭터</a></li>
+                <li class = "nav-item"><a  href = "guide.html">가이드</a></li>
+                <li class = "nav-item"><a href = "https://er.inven.co.kr/">커뮤니티</a></li>
+                <li class = "nav-item"><a  href = "https://store.steampowered.com/app/1049590/_/?l=koreana">다운로드</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class = "ch-selector">
+        <div class = "ch-thumnail" onclick="toggleImg1()"><img src = "./image/ch_full/006.png"><p style = "color:white">나딘</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg2()"><img src = "./image/ch_full/002.png"><p style = "color:white">아야</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg3()"><img src = "./image/ch_full/005.png"><p style = "color:white">자히르</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg4()"><img src = "./image/ch_full/008.png"><p style = "color:white">하트</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg5()"><img src = "./image/ch_full/007.png"><p style = "color:white">현우</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg6()"><img src = "./image/ch_full/004.png"><p style = "color:white">매그너스</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg7()"><img src = "./image/ch_full/003.png"><p style = "color:white">피오라</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg8()"><img src = "./image/ch_full/015.png"><p style = "color:white">시셀라</p></div>
+        <div class = "ch-thumnail" onclick="toggleImg9()"><img src = "./image/ch_full/017.png"><p style = "color:white">아드리아나</p></div>
+    </div>
+
+    <div class = "ch-map">
+        <img id = "img" class = "ch_full" src = "image/ch_full/nadin.png">
+    </div>
+
+    <script>
+        function toggleImg1(){
+            document.getElementById("img").src = "./image/ch_full/nadin.png";
+        }
+        function toggleImg2(){
+            document.getElementById("img").src = "./image/ch_full/aya.png";
+        }
+        function toggleImg3(){
+            document.getElementById("img").src = "./image/ch_full/zahir.png";
+        }
+        function toggleImg4(){
+            document.getElementById("img").src = "./image/ch_full/hart.png";
+        }
+        function toggleImg5(){
+            document.getElementById("img").src = "./image/ch_full/heonwoo.png";
+        }
+        function toggleImg6(){
+            document.getElementById("img").src = "./image/ch_full/mag.png";
+        }
+        function toggleImg7(){
+            document.getElementById("img").src = "./image/ch_full/fiora.png";
+        }
+        function toggleImg8(){
+            document.getElementById("img").src = "./image/ch_full/sisela.png";
+        }
+        function toggleImg9(){
+            document.getElementById("img").src = "./image/ch_full/adriana.png";
+        }
+    </script>
+</body>
+</html>
